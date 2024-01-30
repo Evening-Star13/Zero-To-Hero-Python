@@ -35,7 +35,19 @@ class Dog():
     def cuddles(self):
         return(f"I'm very {self.temperment}!")
         
-# dog = Dog("German Sheppard",'Jack','Black',2,'large', 'Loving',True, True)
+dog = Dog("German Sheppard",'Jack','Black',2,'large', 'Loving',True, True)
+print(dog.breed)
+print(dog.temperment)
+
+print(dog.species)
+print(dog.order)
+print(dog.family)
+print(dog.genus)
+print(dog.bark('Woof Woof'))
+print(dog.happy())
+print(dog.fast())
+print(dog.cuddles())
+
 
 
 class Circle():
